@@ -1,0 +1,54 @@
+body {
+    background-color: #d5e1ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+.qrcodebody {
+    display: grid;
+    background-color: #fff;
+    width: 300px;
+    place-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgb(114, 112, 112);
+    border-radius: 10px;
+}
+
+.qrcodeimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 100%;
+    border-radius:10px;
+}
+
+.qrcodetxt {
+    text-align: center;
+    margin-top: 10px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-size: xx-small;
+    text-align: left;
+}
+
+.attribution {
+    margin-right: 100px;
+}
+
+h1 {
+    font-size: large;
+}
+
+h3 {
+    font-size: small;
+    font-weight: normal;
+}
